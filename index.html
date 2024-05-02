@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>Flair Insights Registration Form</header>
+
+      <form action="#">
+        <div class="form first">
+          <div class="details personal">
+            <span class="title">Personal Details</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label id="name">Full Name</label>
+                <input type="text" placeholder="Enter your name" required />
+              </div>
+              <div class="input-field">
+                <label id="dob">Date of Birth</label>
+                <input type="date" placeholder="Enter your DOB" required />
+              </div>
+              <div class="input-field">
+                <label id="email">Email</label>
+                <input type="email" placeholder="Enter your email" required />
+              </div>
+
+              <div class="input-field">
+                <label id="mob">Mobile number</label>
+                <input type="number" placeholder="Enter your number" required />
+              </div>
+              <div class="input-field">
+                <label id="gender">Gender(M/F/Others)</label>
+                <input type="text" placeholder="Enter your gender" required />
+              </div>
+              <div class="input-field">
+                <label>Current Location</label>
+                <input
+                  type="text"
+                  placeholder="Enter your location"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="details education">
+            <span class="title">Education Details</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>Graduation Field</label>
+                <input type="text" placeholder="Btech/B.E./BComm/BSc" required />
+              </div>
+              <div class="input-field">
+                <label>Passout year</label>
+                <input type="number" placeholder="Ex: 2020" required />
+              </div>
+              <div class="input-field">
+                <label>Branch</label>
+                <input type="text" placeholder="EE/ECE/CSE/IT" required />
+              </div>
+
+              <div class="input-field">
+                <label>Percentage/CGPA</label>
+                <input type="number" placeholder="Enter your percentage/CGPA" required />
+              </div>
+              <div class="input-field">
+                <label>12th Passout year</label>
+                <input type="number" placeholder="Ex: 2018" required />
+              </div>
+              <div class="input-field">
+                <label>Education gap (in years)</label>
+                <input
+                  type="number"
+                  placeholder="Gap in years"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <button class="nextBtn">
+            <span class="btnText">Next</span>
+            <i class="uil uil-navigator"></i>
+          </button>
+        </div>
+        
+
+        <div class="form second">
+          <div class="details personal">
+            <span class="title">Professional Details</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>Last Company</label>
+                <input type="text" placeholder="Enter your company name" required />
+              </div>
+              <div class="input-field">
+                <label>Notice period (in days)</label>
+                <input type="number" placeholder="Ex: 15 days" required />
+              </div>
+              <div class="input-field">
+                <label>When can you join?</label>
+                <input type="date" placeholder="Enter the date" required />
+              </div>
+
+              <div class="input-field">
+                <label>Employee ID</label>
+                <input type="number" placeholder="Enter your ID" required />
+              </div>
+              <div class="input-field">
+                <label>Experience (in years)</label>
+                <input type="text" placeholder="Your experience" required />
+              </div>
+              <div class="input-field">
+                <label>Designation</label>
+                <input
+                  type="text"
+                  placeholder="Your profile"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="details health">
+            <span class="title">Health Details</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>Blood Group</label>
+                <input type="text" placeholder="Ex: A+/B+/O+ etc" required />
+              </div>
+              <div class="input-field">
+                <label>Height (in meters)</label>
+                <input type="number" placeholder="Enter your height" required />
+              </div>
+              <div class="input-field">
+                <label>Weight (in kg)</label>
+                <input type="number" placeholder="Enter your weight" required />
+              </div>
+
+              <div class="input-field">
+                <label>Vision</label>
+                <input type="number" placeholder="Enter your vision" required />
+              </div>
+              <div class="input-field">
+                <label>Are you specially abled?</label>
+                <input type="text" placeholder="Ex: Yes/No" required />
+              </div>
+              <div class="input-field">
+                <label>Category</label>
+                <input
+                  type="text"
+                  placeholder="Gen/OBC/SC/ST"
+                  required
+                />
+              </div>
+            </div>
+            <div class="buttons">
+              <div class="backBtn">
+                <span class="btnText">Back</span>
+                <i class="uil uil-navigator"></i>
+              </div>
+              <button class="submit">
+                <span class="submit">Submit</span>
+                <i class="uil uil-navigator"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
